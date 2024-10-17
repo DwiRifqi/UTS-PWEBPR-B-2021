@@ -3,8 +3,8 @@
 @section('title', 'Register')
 
 @section('content')
-    <div class="flex justify-center items-center min-h-screen bg-gray-100">
-        <div class="max-w-md bg-white p-6 rounded shadow-md">
+    <div class="flex justify-center items-center min-h-screen bg-gray-00">
+        <div class="max-w-md w-full bg-white p-6 rounded-lg shadow-md">
             <h1 class="text-3xl font-bold mb-6 text-center">Register</h1>
 
             <form action="{{ url('/login') }}" method="GET" class="w-full">
