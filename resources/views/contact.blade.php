@@ -17,9 +17,9 @@
             @foreach ($contacts as $contacts)
                 <tr>
                     {{-- <td>{{ $loop->iteration }}</td> --}}
-                    <td class="center">{{ $contacts['name'] }}</td>
-                    <td class="center">{{ $contacts['email'] }}</td>
-                    <td class="center">{{ $contacts['phone'] }}</td>
+                    <td style="text-align: center" class="center">{{ $contacts['name'] }}</td>
+                    <td style="text-align: center" class="center">{{ $contacts['email'] }}</td>
+                    <td style="text-align: center" class="center">{{ $contacts['phone'] }}</td>
                 </tr>
             @endforeach
         </tbody>
